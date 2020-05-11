@@ -1,0 +1,29 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Express Exam Csongor Feher",
+    "version": "1.0"
+  },
+  "schemes": [
+    "http"
+  ],
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/": {
+      "get": {
+        "summary": "Hello World",
+        "operationId": "helloWorld",
+        "responses": {
+          "200": {
+            "description": "Return with Hello World message"
+          }
+        }
+      }
+    }
+  }
+}
